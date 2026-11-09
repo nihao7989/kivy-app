@@ -23,6 +23,7 @@ android.minapi = 21
 android.ndk = 25b
 android.sdk = 24
 android.arch = arm64-v8a
+android.accept_sdk_license = True
 
 # 图标（暂时不用，用默认）
 # icon.filename = %(source.dir)s/icon.png
