@@ -72,7 +72,7 @@ function openVideo() {
     let u = document.getElementById('url').value.trim();
     if (!u) { alert('请先输入链接'); return; }
     if (!u.startsWith('http')) u = 'https://' + u;
-    window.location.href = u;
+    window.location.href = 'https://你的解析站/?url=' + u;
 }
 function openSite(u) {
     window.location.href = u;
